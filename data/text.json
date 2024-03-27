@@ -4,139 +4,159 @@
 		"de": "Wähle deine Sprache",
 		"tr": "Bir Dil Seçiniz",
 		"fr": "Choisissez Votre Langue",
-		"es": "Escoge tu idioma"
+		"es": "Escoge tu idioma",
+		"hr": "Izaberi jezik"
 	},
 	"setupZeroContent": {
 		"en": "We detected your language using your phone's default language but you can change the language of Leeloo AAC if you like.",
 		"de": "Wir haben Ihre Sprache anhand der Standardsprache Ihres Telefons erkannt. Sie können jedoch die Sprache von Leeloo AAC ändern.",
 		"tr": "Telefonunuzun varsayılan dilini kullanarak dilinizi tespit ettik ancak isterseniz Leeloo AAC'nin dilini değiştirebilirsiniz.",
 		"fr": "Nous avons détecté votre langue en utilisant la langue par défaut de votre téléphone mais vous pouvez changer la langue de Leeloo AAC.",
-		"es": "Hemos detectado tu idioma utilizando el idioma por defecto de tu teléfono pero puedes cambiar el idioma de Leeloo AAC si así lo deseas."
+		"es": "Hemos detectado tu idioma utilizando el idioma por defecto de tu teléfono pero puedes cambiar el idioma de Leeloo AAC si así lo deseas.",
+		"hr": "Detektirali smo da jezik koji vaš mobitel koristi, ali možete promjeniti jezik Leeloo AAC ako želite."
 	},
 	"setupZeroButton": {
 		"en": "Continue",
 		"de": "Fortsetzen",
 		"tr": "Devam Et",
 		"fr": "Continuer",
-		"es": "Continuar"
+		"es": "Continuar",
+		"hr": "Nastavi"
 	},
 	"setupOneHeading": {
 		"en": "Welcome!",
 		"de": "Willkommen!",
 		"tr": "Hoşgeldiniz!",
 		"fr": "Bienvenue!",
-		"es": "¡Bienvenido!"
+		"es": "¡Bienvenido!",
+		"hr": "Dobrodošli!"
 	},
 	"setupOneContent1": {
 		"en": "Thank you so much for downloading. In order to personalize your experience, you need to setup this application.",
 		"de": "Vielen Dank für das Herunterladen. Um Ihre Erfahrung zu personalisieren, müssen Sie diese Anwendung einrichten.",
 		"tr": "İndirdiğiniz için çok teşekkürler. Hadi hemen, deneyiminizi kişiselleştirmek için bu uygulamayı kuralım.",
 		"fr": "Merci beaucoup pour le téléchargement. Afin de personnaliser votre expérience, vous devez configurer cette application.",
-		"es": "Muchas gracias por descargar esta aplicación. Para personalizar tu experiencia es necesario configurar la misma."
+		"es": "Muchas gracias por descargar esta aplicación. Para personalizar tu experiencia es necesario configurar la misma.",
+		"hr": "Hvala vam na skidanju aplikacije. Da bi personalizirali iskustvo, trebate prilagoditi postavke aplikacije."
 	},
 	"setupOneContent2": {
 		"en": "Follow this 2 steps and start using Leeloo AAC app right away.",
 		"de": "Befolgen Sie diese 2 Schritte und beginnen Sie sofort mit der Leeloo AAC App.",
 		"tr": "Bu 2 adımı izleyin ve hemen Leeloo AAC uygulamasını kullanmaya başlayın.",
 		"fr": "Suivez ces 2 étapes et commencez à utiliser l'application Leeloo AAC tout de suite.",
-		"es": "Sigue estos dos pasos para comenzar a utilizar Leeloo AAC de forma inmediata."
+		"es": "Sigue estos dos pasos para comenzar a utilizar Leeloo AAC de forma inmediata.",
+		"hr": "Pratite ova 2 koraka i počnite koristiti Leeloo AAC odmah."
 	},
 	"setupOneButton": {
 		"en": "Let's Start",
 		"de": "Lasst uns Beginnen",
 		"tr": "Hadi Başlayalım",
 		"fr": "Commençons",
-		"es": "Comencemos"
+		"es": "Comencemos",
+		"hr": "Idemo početi"
 	},
 	"setupTwoHeading": {
 		"en": "Choose Your Avatar",
 		"de": "Wähle deinen Avatar",
 		"tr": "Avatarını Seç",
 		"fr": "Choisissez votre Avatar",
-		"es": "Elige un Avatar"
+		"es": "Elige un Avatar",
+		"hr": "Izaberite avatar"
 	},
 	"setupTwoContent": {
 		"en": "From the following avatars, choose the avatar that best resembles the user of this AAC application.",
 		"de": "Wählen Sie aus den folgenden Avataren den Avatar aus, der dem Benutzer dieser AAC-Anwendung am ehesten entspricht.",
 		"tr": "Aşağıdaki avatarlardan, bu AAC uygulamasının kullanıcısına en çok benzeyen avatarı seçin.",
 		"fr": "Parmi les avatars suivants, choisissez l'avatar qui ressemble le mieux à l'utilisateur de cette application AAC.",
-		"es": "De los siguientes avatars, elige el que más se asemeje al usuario de esta aplicación AAC."
+		"es": "De los siguientes avatars, elige el que más se asemeje al usuario de esta aplicación AAC.",
+		"hr": "Od ponuđenih avatara, izaberite avatar koji najviše liči korisniku ove AAC aplikacije."
 	},
 	"setupTwoButton": {
 		"en": "Choose an Avatar",
 		"de": "Wähle einen Avatar",
 		"tr": "Bir Avatar Seç",
 		"fr": "Choisissez un Avatar",
-		"es": "Elige un Avatar"
+		"es": "Elige un Avatar",
+		"hr": "Izaberite Avatar"
 	},
 	"setupThreeHeading": {
 		"en": "What is Your Name?",
 		"de": "Was ist Ihr Name?",
 		"tr": "Adın Nedir?",
 		"fr": "Votre Nom?",
-		"es": "¿Cómo te llamas?"
+		"es": "¿Cómo te llamas?",
+		"hr": "Kako se zoveš?"
 	},
 	"setupThreeInput": {
 		"en": "Your name...",
 		"de": "Ihr name...",
 		"tr": "Adınızı girin...",
 		"fr": "Votre nom...",
-		"es": "Tu nombre..."
+		"es": "Tu nombre...",
+		"hr": "Tvoje ime..."
 	},
 	"setupThreeContent": {
 		"en": "What would you like me to call you when referring to you in the application?",
 		"de": "Was möchtest du, wenn ich dich anrufe, wenn ich dich in der Bewerbung anrufe?",
 		"tr": "Uygulama içinde senden bahsetmek için adına ne dememi istersin?",
 		"fr": "Qu'aimeriez-vous que je vous appelle lorsque je me réfère à vous dans la application?",
-		"es": "¿Cómo te gustaría que te llame cuando me refiera a ti en la aplicación?"
+		"es": "¿Cómo te gustaría que te llame cuando me refiera a ti en la aplicación?",
+		"hr": "Kako biste željeli da vas zovem kada vas spominjem u aplikaciji? "
 	},
 	"setupFourHeading": {
 		"en": "Speech Settings",
 		"de": "Spracheinstellungen",
 		"tr": "Konuşma Ayarları",
 		"fr": "Paramètres de la Parole",
-		"es": "Configuración de voz"
+		"es": "Configuración de voz",
+		"hr": "Postavke govora"
 	},
 	"setupFourContent": {
 		"en": "Let's setup the speech voice settings when cards are pressed.",
 		"de": "Lassen Sie uns die Sprachstimmeinstellungen einstellen, wenn Karten gedrückt werden.",
 		"tr": "Kartlara basıldığında çıkacak konuşma sesinin ayarlarını yapalım.",
 		"fr": "Configurons les paramètres de la voix vocale lorsque les cartes sont pressées.",
-		"es": "Configuremos las propiedades de voz cuando las tarjetas son presionadas."
+		"es": "Configuremos las propiedades de voz cuando las tarjetas son presionadas.",
+		"hr": "Postavimo glasovne postavke govora kada se pritisnu kartice."
 	},
 	"demoSpeechText": {
 		"en": "Hello, this is a test speech!",
 		"de": "Hallo, das ist eine Testrede!",
 		"tr": "Merhaba, bu bir test konuşmasıdır!",
 		"fr": "Bonjour, ceci est un test de discours!",
-		"es": "¡Hola, esto es una prueba de voz!"
+		"es": "¡Hola, esto es una prueba de voz!",
+		"hr": "Pozdrav, ovo je testni govor!"
 	},
 	"setupFiveHeading": {
 		"en": "Congrats",
 		"de": "Glückwunsch",
 		"tr": "Tebrikler",
 		"fr": "Félicitations",
-		"es": "¡Felicitaciones"
+		"es": "¡Felicitaciones",
+		"hr": "Čestitam!"
 	},
 	"setupFiveContent": {
 		"en": "Setup is successfully completed. Now you can start using Leeloo AAC app. Don't forget to tell your friends about us!",
 		"de": "Das Setup wurde erfolgreich abgeschlossen. Jetzt können Sie die Leeloo AAC App verwenden. Vergiss nicht, deinen Freunden von uns zu erzählen!",
 		"tr": "Kurulum başarıyla tamamlandı. Artık Leeloo AAC uygulamasını kullanmaya başlayabilirsiniz. Arkadaşlarınıza bizi önermeyi unutmayın!",
 		"fr": "L'installation est terminée avec succès. Maintenant, vous pouvez commencer à utiliser l'application Leeloo AAC. N'oubliez pas de parler de nous à vos amis!",
-		"es": "La configuración ha sido terminada. Ya puedes comenzar a usar la aplicación Leeloo AAC. ¡No olvides contarle a tus amigos sobre nosotros!"
+		"es": "La configuración ha sido terminada. Ya puedes comenzar a usar la aplicación Leeloo AAC. ¡No olvides contarle a tus amigos sobre nosotros!",
+		"hr": "Postavljanje je uspješno dovršeno. Sada možete početi koristiti aplikaciju Leeloo AAC. Ne zaboravite reći svojim prijateljima o nama!"
 	},
 	"setupFiveButton": {
 		"en": "Start Using",
 		"de": "Starten Sie mit",
 		"tr": "Kullanmaya Başla",
 		"fr": "Commencer à Utiliser",
-		"es": "Comenzar a usar"
+		"es": "Comenzar a usar",
+		"hr": "Počnite koristiti"
 	},
 	"justStartTyping": {
 		"en": "Just start typing...",
 		"de": "Beginne zu tippen...",
 		"tr": "Yazmaya başla...",
 		"fr": "Commencer à écrire...",
-		"es": "Empezar a escribir"
+		"es": "Empezar a escribir",
+		"hr": "Počnite pisati..."
 	}
 }

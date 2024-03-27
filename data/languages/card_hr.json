@@ -1,0 +1,2850 @@
+[
+    {
+        "type": "group",
+        "title": "Općenito",
+        "slug": "general",
+        "parents": [],
+        "color": "#93B4DB"
+    },
+    {
+        "type": "group",
+        "title": "Ljudi",
+        "slug": "people",
+        "parents": [],
+        "color": "#8CC7D9"
+    },
+    {
+        "type": "group",
+        "title": "Hrana",
+        "slug": "foods",
+        "parents": [],
+        "color": "#9B8EC3"
+    },
+    {
+        "type": "group",
+        "title": "Osjećaji",
+        "slug": "feelings",
+        "parents": [],
+        "color": "#CC99C4"
+    },
+    {
+        "type": "group",
+        "title": "Aktivnosti",
+        "slug": "activities",
+        "parents": [],
+        "color": "#99CCA1"
+    },
+    {
+        "type": "group",
+        "title": "Škola",
+        "slug": "school",
+        "parents": [],
+        "color": "#99CBCC"
+    },
+    {
+        "type": "group",
+        "title": "Brojevi",
+        "slug": "numbers",
+        "parents": [],
+        "color": "#ccc899"
+    },
+    {
+        "type": "card",
+        "title": "Pomozi mi",
+        "slug": "help",
+        "parents": [
+            "general"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Možeš li mi pomoći?"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Mogu li ti pomoći?"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Gladan",
+        "slug": "hungry",
+        "parents": [
+            "general",
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Gladan sam!"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Jesi li ti gladan?"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Možeš li mi napraviti nešto za jesti?"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Žedan",
+        "slug": "thirsty",
+        "parents": [
+            "general",
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Žedan sam!"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Jesi li ti žedan?"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Mogu li dobiti malo vode?"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želim nešto piti!"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "WC",
+        "slug": "toilet",
+        "parents": [
+            "general"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Moram ići na WC!"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Možeš li me odvesti na WC?"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Trebam kakiti"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Trebam piškiti"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Što?",
+        "slug": "what",
+        "parents": [
+            "general"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Što misliš?"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Što to znači?"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Da",
+        "slug": "yes",
+        "parents": [
+            "general"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "OKEJ!"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "U redu"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Slažem se!"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Točno"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Ne",
+        "slug": "no",
+        "parents": [
+            "general"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Ne!"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Negativno"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne slažem se!"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Pogrešno"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Bok",
+        "slug": "hello",
+        "parents": [
+            "general"
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Spavati",
+        "slug": "sleep",
+        "parents": [
+            "general"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Trebam spavati"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želim spavati"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Spava mi se"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Kupka",
+        "slug": "bath",
+        "parents": [
+            "general"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim se okupati"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Pomozi mi da se otuširam"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Jutro",
+        "slug": "morning",
+        "parents": [
+            "general"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Dobro jutro"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ujutro"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Noć",
+        "slug": "night",
+        "parents": [
+            "general"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Laku noć"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Navečer"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Slušati",
+        "slug": "listen",
+        "parents": [
+            "general"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Slušaj me"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Slušam te"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Vani",
+        "slug": "outside",
+        "parents": [
+            "general"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim ići vani"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Možeš li me izvesti vani?"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Odjeća",
+        "slug": "clothes",
+        "parents": [
+            "general"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Nošenje odjeće"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Roba mi je prljava"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Možeš li mi dati nešto da obučem?"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Možeš li mi pomoći da se obučem?"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Dom",
+        "slug": "home",
+        "parents": [
+            "general"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim ići kući"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Volim svoj dom"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Povreda",
+        "slug": "hurt",
+        "parents": [
+            "general"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Ozlijedio sam se"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Trebam flaster"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Boli me"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Sretan",
+        "slug": "happy",
+        "parents": [
+            "feelings"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Osjećam se sretnim"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Jesi li ti sretan?"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Tužan",
+        "slug": "sad",
+        "parents": [
+            "feelings"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Osjećam se tužno"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Jesi li ti tužan?"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Iscrpljen",
+        "slug": "exhausted",
+        "parents": [
+            "feelings"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Osjećam se iscrpljeno"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Jesi li ti iscrpljen?"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Opušten",
+        "slug": "relaxed",
+        "parents": [
+            "feelings"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Osjećam se opušteno"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Jesi li ti opušten?"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Zaljubljen",
+        "slug": "inlove",
+        "parents": [
+            "feelings"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Zaljubljen sam"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Jesi li ti zaljubljen?"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Pod stresom",
+        "slug": "stressed",
+        "parents": [
+            "feelings"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Osjećam se pod stresom"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Jesi li ti pod stresom?"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Zahvalan",
+        "slug": "thankful",
+        "parents": [
+            "feelings"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Osjećam se zahvalno"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Osjećaš li se ti zahvalno?"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Zbunjen",
+        "slug": "confused",
+        "parents": [
+            "feelings"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Osjećam se zbunjeno"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Osjećaš li se ti zbunjeno?"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Radostan",
+        "slug": "joyful",
+        "parents": [
+            "feelings"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Osjećam se radosno"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Osjećaš li se ti radosno?"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Ljut",
+        "slug": "angry",
+        "parents": [
+            "feelings"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Osjećam se ljuto"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Osjećaš li se ti ljutito?"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Pametan",
+        "slug": "smart",
+        "parents": [
+            "feelings"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Osjećam se pametno"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Osjećaš li se ti pametno?"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Uplašen",
+        "slug": "afraid",
+        "parents": [
+            "feelings"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Osjećam se uplašen"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Osjećaš li se ti uplašeno?"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Sramotan",
+        "slug": "ashamed",
+        "parents": [
+            "feelings"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Sram me"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Osjećaš li ti sram?"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Šokiran",
+        "slug": "shocked",
+        "parents": [
+            "feelings"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Osjećam se šokirano"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Osjećaš li se ti šokirano?"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Bolestan",
+        "slug": "sick",
+        "parents": [
+            "feelings"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Osjećam se bolesno"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Osjećaš li se ti bolesno?"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Frustriran",
+        "slug": "frustrated",
+        "parents": [
+            "feelings"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Osjećam se frustrirano"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Osjećaš li se ti frustrirano?"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Jabuka",
+        "slug": "apple",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim jesti jabuku"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim jesti jabuku"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti jesti jabuku?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti jabuke"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "naranča",
+        "slug": "orange",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim jesti naranču"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim jesti naranču"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti jesti naranču?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti naranče"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Pribor za jelo",
+        "slug": "utensils",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Možeš li mi pomoći koristiti pribor za jelo?"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Možeš li mi dati pribor za jelo?"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Voda",
+        "slug": "water",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim popiti malo vode"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim piti vodu"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti popiti malo vode?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim piti vodu"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Rajčica",
+        "slug": "tomato",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim jesti rajčicu"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim jesti rajčicu"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti jesti rajčicu?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti rajčice"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Krumpir",
+        "slug": "potato",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim jesti krumpir"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim jesti krumpir"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti jesti krumpir?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti krumpir"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Odrezak",
+        "slug": "steak",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim jesti odrezak"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim jesti odrezak"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti jesti odrezak?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti odrezak"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Pizza",
+        "slug": "pizza",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim jesti pizzu"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim jesti pizzu"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti jesti pizzu?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti pizzu"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Hamburger",
+        "slug": "hamburger",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim jesti hamburger"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim jesti hamburger"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti jesti hamburger?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti hamburgere"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Pomfrit",
+        "slug": "fries",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim jesti pomfrit"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim jesti pomfrit"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti jesti pomfrit?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti pomfrit"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Sladoled",
+        "slug": "icecream",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim jesti sladoled"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim jesti sladoled"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti jesti sladoled?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti sladoled"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Kolačić",
+        "slug": "cookie",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim jesti kolačić"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim jesti kolačić"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti jesti kolačiće?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti kolačiće"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Pahuljice",
+        "slug": "cereal",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim jesti pahuljice"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim jesti pahuljice"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti jesti pahuljice?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti pahuljice"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Prženo jaje",
+        "slug": "friedegg",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim jesti prženo jaje"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim jesti prženo jaje"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti jesti prženo jaje?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti pržena jaja"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Kuhano jaje",
+        "slug": "boiledegg",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim jesti kuhano jaje"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim jesti kuhano jaje"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti jesti kuhano jaje?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti kuhana jaja"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Sir",
+        "slug": "cheese",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim jesti sir"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim jesti sir"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti jesti sir?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti sir"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Piletina",
+        "slug": "chicken",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim jesti piletinu"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim jesti piletinu"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti jesti piletinu?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti piletinu"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Sendvič",
+        "slug": "sandwich",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim jesti sendvič"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim jesti sendvič"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti jesti sendvič?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti sendviče"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Salata",
+        "slug": "salad",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim jesti salatu"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim jesti salatu"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti jesti salatu?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti salatu"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Kruh",
+        "slug": "bread",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim jesti kruh"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim jesti kruh"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti jesti kruh?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti kruh"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Mrkva",
+        "slug": "carrot",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim jesti mrkvu"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim jesti mrkvu"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti jesti mrkvu?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti mrkvu"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Slatkiši",
+        "slug": "candy",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim jesti slatkiše"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim jesti slatkiše"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti jesti slatkiše?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti slatkiše"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Torta",
+        "slug": "cake",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim jesti tortu"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim jesti tortu"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti jesti tortu?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti tortu"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Brokula",
+        "slug": "broccoli",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim jesti brokulu"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim jesti brokulu"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti jesti brokulu?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti brokulu"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Trešnje",
+        "slug": "cherries",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim jesti trešnje"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim jesti trešnje"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti jesti trešnje?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti trešnje"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Grah",
+        "slug": "beans",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim jesti grah"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim jesti grah"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti jesti grah?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti grah"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Banana",
+        "slug": "banana",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim jesti bananu"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim jesti bananu"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti jesti bananu?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti banane"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Čokolada",
+        "slug": "chocolate",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim jesti čokoladu"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim jesti čokoladu"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti jesti čokoladu?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti čokoladu"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Kola",
+        "slug": "coke",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim piti kolu"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim piti kolu"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti piti kolu?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim piti kolu"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Muffin",
+        "slug": "cupcake",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim jesti muffin"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim jesti muffin"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti pojesti muffin?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti muffine"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Krafna",
+        "slug": "doughnut",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim jesti krafnu"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim jesti krafnu"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti jesti krafnu?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti krafne"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Riba",
+        "slug": "fish",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim jesti ribu"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim jesti ribu"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti jesti ribu?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti ribu"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Sushi",
+        "slug": "sushi",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim jesti sushi"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim jesti sushi"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti jesti sushi?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti sushi"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Kukuruz",
+        "slug": "corn",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim jesti kukuruz"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim jesti kukuruz"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti jesti kukuruz?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti kukuruz"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Limun",
+        "slug": "lemon",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim jesti limun"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim jesti limun"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti jesti limun?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti limune"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Senf",
+        "slug": "mustard",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim senf sa hranom"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim senf sa hranom"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti senfa?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti senf sa hranom"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Breskva",
+        "slug": "peach",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim jesti breskvu"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim jesti breskvu"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti jesti breskvu?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti breskve"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Ananas",
+        "slug": "pineapple",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim jesti ananas"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim jesti ananas"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti jesti ananas?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti ananas"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Malina",
+        "slug": "raspberry",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim jesti maline"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim jesti maline"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti jesti maline?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti maline"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Jagode",
+        "slug": "strawberry",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim jesti jagode"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim jesti jagode"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti jesti jagode?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti jagode"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Lubenica",
+        "slug": "watermelon",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim jesti lubenicu"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim jesti lubenicu"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti jesti lubenicu?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti lubenicu"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Grožđe",
+        "slug": "grapes",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim jesti grožđe"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim jesti grožđe"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti jesti grožđe?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti grožđe"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Avokado",
+        "slug": "avocado",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim jesti avokado"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim jesti avokado"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti jesti avokado?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti avokado"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Riža",
+        "slug": "rice",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim jesti rižu"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim jesti rižu"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti jesti rižu?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti rižu"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Špageti",
+        "slug": "spaghetti",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim jesti špagete"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim jesti špagete"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti jesti špagete?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti špagete"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Mlijeko",
+        "slug": "milk",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim piti mlijeko"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim piti mlijeko"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti piti mlijeko?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim piti mlijeko"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Čaj",
+        "slug": "tea",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim piti čaj"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim piti čaj"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti piti čaj?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim piti čaj"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Med",
+        "slug": "honey",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim jesti med"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim jesti med"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti jesti med?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti med"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Kebab",
+        "slug": "kebab",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim jesti kebab"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim jesti kebab"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti jesti kebab?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti kebabe"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Taco",
+        "slug": "taco",
+        "parents": [
+            "foods"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Želim jesti tacos"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne želim jesti tacos"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li ti jesti tacos?"
+            },
+            {
+                "symbol": "like",
+                "phrase": "Volim jesti tacos"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Mama",
+        "slug": "mother",
+        "parents": [
+            "people"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Volim svoju mamu"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želim vidjeti svoju mamu"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Tata",
+        "slug": "father",
+        "parents": [
+            "people"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Volim svog tatu"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želim vidjeti svog tatu"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Roditelji",
+        "slug": "parents",
+        "parents": [
+            "people"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Volim svoje roditelje"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želim vidjeti svoje roditelje"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Djed i baka",
+        "slug": "grandparents",
+        "parents": [
+            "people"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Volim svoje bake i djedove"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želim vidjeti svoje bake i djedove"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Brat",
+        "slug": "brother",
+        "parents": [
+            "people"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Volim svog brata"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želim vidjeti svog brata"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Sestra",
+        "slug": "sister",
+        "parents": [
+            "people"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Volim svoju sestru"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želim vidjeti svoju sestru"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Ujak",
+        "slug": "uncle",
+        "parents": [
+            "people"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Volim svog ujaka"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želim vidjeti svog ujaka"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Tetka",
+        "slug": "aunt",
+        "parents": [
+            "people"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Volim svoju tetku"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želim vidjeti svoju tetku"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Učitelj",
+        "slug": "teacher",
+        "parents": [
+            "people",
+            "school"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Volim svog učitelja"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želim vidjeti svog učitelja"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Terapeut",
+        "slug": "therapist",
+        "parents": [
+            "people"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Volim svog terapeuta"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želim vidjeti svog terapeuta"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Liječnik",
+        "slug": "doctor",
+        "parents": [
+            "people"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Volim svog liječnika"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želim vidjeti svog liječnika"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Prijatelji",
+        "slug": "friends",
+        "parents": [
+            "people"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Volim svoje prijatelje"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Ne volim svoje prijatelje"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želim vidjeti svoje prijatelje"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želim se čuti sa svojim prijateljima"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Knjiga",
+        "slug": "book",
+        "parents": [
+            "school"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Čitam knjigu"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Možeš li mi dati knjigu?"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Bilježnica",
+        "slug": "notebook",
+        "parents": [
+            "school"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Vodim bilješke u svojoj bilježnici"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Možeš li mi dati bilježnicu?"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Olovka",
+        "slug": "pencil",
+        "parents": [
+            "school"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Pišem olovkom"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Možeš li mi dati olovku?"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Ploča",
+        "slug": "blackboard",
+        "parents": [
+            "school"
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Školski sat",
+        "slug": "lesson",
+        "parents": [
+            "school"
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Tiho",
+        "slug": "quiet",
+        "parents": [
+            "school"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Moram biti tih na satu"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Morate biti tihi na satu"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Matematika",
+        "slug": "mathematics",
+        "parents": [
+            "school"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Volim matematiku"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želim naučiti matematiku"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Književnost",
+        "slug": "literature",
+        "parents": [
+            "school"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Volim književnost"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želim naučiti književnost"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Pitanje",
+        "slug": "question",
+        "parents": [
+            "school"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Imam pitanje"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Mogu li postaviti pitanje?"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Razumjeti",
+        "slug": "understand",
+        "parents": [
+            "school"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Ne razumijem"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Možeš li mi to objasniti?"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Domaća zadaća",
+        "slug": "homework",
+        "parents": [
+            "school"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Moram napraviti domaću zadaću"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Možeš li mi pomoći sa zadaćom?"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Šetnja",
+        "slug": "walking",
+        "parents": [
+            "activities"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Idemo šetati!"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Možemo li ići u šetnju?"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Trčanje",
+        "slug": "running",
+        "parents": [
+            "activities"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Volim trčanje"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Možemo li ići trčati?"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Razgovor",
+        "slug": "talking",
+        "parents": [
+            "activities"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Volim razgovarati"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Možemo li razgovarati?"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Čitanje",
+        "slug": "reading",
+        "parents": [
+            "activities"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Volim čitati."
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Možeš li mi pomoći da pročitam?"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Nogomet",
+        "slug": "football",
+        "parents": [
+            "activities"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Volim igrati nogomet"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Idemo igrati nogomet!"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Košarka",
+        "slug": "basketball",
+        "parents": [
+            "activities"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Volim igrati košarku"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Idemo igrati košarku!"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Plivanje",
+        "slug": "swimming",
+        "parents": [
+            "activities"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Volim plivanje"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Možemo li ići plivati?"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Tenis",
+        "slug": "tennis",
+        "parents": [
+            "activities"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Volim igrati tenis"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Možemo li zajedno igrati tenis?"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Biciklistički",
+        "slug": "cycling",
+        "parents": [
+            "activities"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Volim biciklizam"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Možemo li zajedno ići biciklirati?"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Klizanje",
+        "slug": "skating",
+        "parents": [
+            "activities"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Volim klizanje"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li klizati sa mnom?"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Razgledavanje",
+        "slug": "sightseeing",
+        "parents": [
+            "activities"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Volim razgledavati"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Možemo li zajedno ići razgledavati?"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Video igre",
+        "slug": "videogames",
+        "parents": [
+            "activities"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Volim igrati video igre"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Mogu li igrati video igre?"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Pospremanje",
+        "slug": "tidying",
+        "parents": [
+            "activities"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Volim pospremati svoju sobu"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Možeš li mi pomoći pospremiti svoju sobu?"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Igračke",
+        "slug": "toys",
+        "parents": [
+            "activities"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Volim se igrati sa svojim igračkama"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li se ti igrati s mojim igračkama?"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Puzzle",
+        "slug": "puzzle",
+        "parents": [
+            "activities"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Volim rješavati puzzle"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li da zajedno rješavamo puzzle?"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Stripovi",
+        "slug": "comics",
+        "parents": [
+            "activities"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Volim čitati stripove"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li čitati stripove sa mnom?"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Šah",
+        "slug": "chess",
+        "parents": [
+            "activities"
+        ],
+        "phrases": [
+            {
+                "symbol": "hand",
+                "phrase": "Volim igrati šah"
+            },
+            {
+                "symbol": "hand",
+                "phrase": "Želiš li igrati šah sa mnom?"
+            }
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Jedan",
+        "slug": "one",
+        "parents": [
+            "numbers"
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Dva",
+        "slug": "two",
+        "parents": [
+            "numbers"
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Tri",
+        "slug": "three",
+        "parents": [
+            "numbers"
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Četiri",
+        "slug": "four",
+        "parents": [
+            "numbers"
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Pet",
+        "slug": "five",
+        "parents": [
+            "numbers"
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Šest",
+        "slug": "six",
+        "parents": [
+            "numbers"
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Sedam",
+        "slug": "seven",
+        "parents": [
+            "numbers"
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Osam",
+        "slug": "eight",
+        "parents": [
+            "numbers"
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Devet",
+        "slug": "nine",
+        "parents": [
+            "numbers"
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Deset",
+        "slug": "ten",
+        "parents": [
+            "numbers"
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Dvadeset",
+        "slug": "twenty",
+        "parents": [
+            "numbers"
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Trideset",
+        "slug": "thirty",
+        "parents": [
+            "numbers"
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Četrdeset",
+        "slug": "forty",
+        "parents": [
+            "numbers"
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Pedeset",
+        "slug": "fifty",
+        "parents": [
+            "numbers"
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Šezdeset",
+        "slug": "sixty",
+        "parents": [
+            "numbers"
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Sedamdeset",
+        "slug": "seventy",
+        "parents": [
+            "numbers"
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Osamdeset",
+        "slug": "eighty",
+        "parents": [
+            "numbers"
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Devedeset",
+        "slug": "ninety",
+        "parents": [
+            "numbers"
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Sto",
+        "slug": "hundred",
+        "parents": [
+            "numbers"
+        ]
+    },
+    {
+        "type": "card",
+        "title": "Kalkulator",
+        "slug": "calculator",
+        "parents": [
+            "numbers"
+        ]
+    }
+]

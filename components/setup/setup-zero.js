@@ -62,6 +62,10 @@ export default class App extends React.Component {
             <Image source={require("../../assets/flag/fr-fr.png")} style={styles.avatarImage}/>
             <Text style={styles.langText}>Français</Text>
           </TouchableOpacity>
+          <TouchableOpacity onPress={() => this.choose("hr-hr")} style={this.getStyle("hr-hr")}>
+            <Image source={require("../../assets/flag/hr-hr.png")} style={styles.avatarImage}/>
+            <Text style={styles.langText}>Hrvatski</Text>
+          </TouchableOpacity>
           <TouchableOpacity onPress={() => this.choose("es-mx")} style={this.getStyle("es-mx")}>
             <Image source={require("../../assets/flag/es-mx.png")} style={styles.avatarImage}/>
             <Text style={styles.langText}>Español (MX)</Text>

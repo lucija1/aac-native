@@ -33,6 +33,11 @@
       "assets/*",
       "data/images/*"
     ],
-    "privacy": "public"
+    "privacy": "public",
+    "extra": {
+      "eas": {
+        "projectId": "785576d6-3904-4f84-ae7a-bbae8f8f0940"
+      }
+    }
   }
 }

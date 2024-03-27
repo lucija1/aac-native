@@ -1,13 +1,8 @@
-// Differentiate between setup and layout components
-
 import React from 'react';
 import { Text, View, StatusBar } from 'react-native';
-
 import Layout from './layouts/layout';
 import Setup from './layouts/setup';
-
 import * as Font from 'expo-font';
-
 import API from './api';
 
 export default class App extends React.Component {
@@ -15,70 +10,59 @@ export default class App extends React.Component {
     super(props);
     this.state = {
       setup: false,
-      font: false
-    }
-  }
-
-  componentWillMount(){
-    API.getData("setup").then(setupStatus => {
-      console.log(setupStatus);
-      if(setupStatus == "start"){
-        this.setState({setup: "start"});
-      }else{
-        this.setState({setup: "done"});
-      }
-    });
+      fontLoaded: false
+    };
   }
 
   componentDidMount(){
-    Font.loadAsync({
+    this.loadFonts();
+    this.checkSetupStatus();
+  }
+
+  async loadFonts() {
+    await Font.loadAsync({
       'rubik': require('./fonts/Rubik-Regular.ttf'),
       'rubik-bold': require('./fonts/Rubik-Bold.ttf')
-    }).then(() => {
-      this.setState({font: true});
     });
-    this.checkTimeout();
+    this.setState({ fontLoaded: true });
   }
 
-  checkTimeout(){
-    setTimeout(() => {
-      if(!this.state.setup){
-        API.getData("setup").then(setupStatus => {
-          if(setupStatus == "start"){
-            this.setState({setup: "start"});
-          }else{
-            this.setState({setup: "done"});
-          }
-        });
-        this.checkTimeout();
-      }
-    }, 300);
+  async checkSetupStatus() {
+    const setupStatus = await API.getData("setup");
+    if (setupStatus === "start") {
+      this.setState({ setup: "start" });
+    } else {
+      this.setState({ setup: "done" });
+    }
   }
 
-  setupFinished(){
-    this.setState({setup: "done"});
+  setupFinished = () => {
+    this.setState({ setup: "done" });
     API.setData("setup", "done");
-  }
+  };
 
-  renderMainComponent(){
-    if(this.state.setup == "start"){
-      return(<Setup finished={this.setupFinished.bind(this)}/>);
-    }else if(this.state.setup == "done"){
-      return(<Layout language={this.state.currentLang}/>);
-    }else{
-      return null;
+  renderMainComponent() {
+    const { setup } = this.state;
+    switch (setup) {
+      case "start":
+        return <Setup finished={this.setupFinished} />;
+      case "done":
+        return <Layout language={this.state.currentLang} />;
+      default:
+        return null;
     }
   }
 
   render() {
-    if(this.state.font){
+    const { fontLoaded, setup } = this.state;
+    if (fontLoaded) {
       return (
-        <View style={{flex: 1, position: "relative"}}>
-          <StatusBar hidden={true}/>
-          {this.renderMainComponent()}
+        <View style={{ flex: 1, position: "relative" }}>
+          <StatusBar hidden={true} />
+          {setup && this.renderMainComponent()}
         </View>
       );
-    }else{
+    } else {
       return null;
     }
   }

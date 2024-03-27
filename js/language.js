@@ -5,6 +5,7 @@
     de: require('../data/languages/card_de.json'),
     tr: require('../data/languages/card_tr.json'),
     fr: require('../data/languages/card_fr.json'),
-    es: require('../data/languages/card_es.json')
+    es: require('../data/languages/card_es.json'),
+    hr: require('../data/languages/card_hr.json')
   }
   export default Obj;
